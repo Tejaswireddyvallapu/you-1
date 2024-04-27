@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Food Company</title>
+    <style>
+        /* CSS styles */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #ffcc00;
+            padding: 10px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .product {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        form {
+            margin: 20px;
+        }
+
+        form h2 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        form input[type="text"],
+        form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        form button {
+            background-color: #ffcc00;
+            border: none;
+            color: #333;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+    <script>
+        // JavaScript code
+        // You can add your logic here if needed
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#product">Product</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div id="home">
+        <h1>Welcome to our Food Company!</h1>
+        <p>We offer a wide range of delicious and nutritious food products.</p>
+    </div>
+
+    <div id="product">
+        <div class="product">
+            <img src="food1.jpg" alt="Food 1">
+            <p>Description of Food Product 1</p>
+        </div>
+        <div class="product">
+            <img src="food2.jpg" alt="Food 2">
+            <p>Description of Food Product 2</p>
+        </div>
+        <div class="product">
+            <img src="food3.jpg" alt="Food 3">
+            <p>Description of Food Product 3</p>
+        </div>
+    </div>
+
+    <div id="contact">
+        <form>
+            <h2>Contact Us</h2>
+            <input type="text" placeholder="Your Name">
+            <input type="text" placeholder="Your Email">
+            <textarea placeholder="Message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <footer>
+        &copy; 2024 Food Company. All rights reserved.
+    </footer>
+</body>
+</html>
